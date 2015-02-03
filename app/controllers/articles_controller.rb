@@ -2,6 +2,7 @@ class ArticlesController < ApplicationController
   def index
     articles = [
       { id: 123, name: 'The Things' },
+       
     ]
 
     respond_to do |format|
@@ -11,3 +12,4 @@ class ArticlesController < ApplicationController
     end
   end
 end
+

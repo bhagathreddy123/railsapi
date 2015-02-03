@@ -11,4 +11,7 @@ Rails.application.routes.draw do
   api_version(2) do
     resources :articles, only: :index
   end
+ resources :articles
 end
+
+  

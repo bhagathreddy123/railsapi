@@ -3,6 +3,7 @@ module V2
     def index
       articles = [
         { id: 123, name: 'The Things' },
+        { id: 124, name: 'The Thing' }
       ]
 
       respond_to do |format|
